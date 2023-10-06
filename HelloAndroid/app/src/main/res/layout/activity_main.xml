@@ -22,4 +22,10 @@
         android:text="Seconde Activity"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/btn_goto_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Counter"/>
+
 </LinearLayout>

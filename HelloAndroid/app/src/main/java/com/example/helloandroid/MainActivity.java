@@ -42,5 +42,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btnGoToCounter = findViewById(R.id.btn_goto_counter);
+        btnGoToCounter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CounterActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
+
 }
